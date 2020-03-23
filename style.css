@@ -1,0 +1,117 @@
+body{
+    background-color: lightgray;
+    font-family: 'Baloo 2', cursive;
+
+}
+section{
+    width: 30%;
+    font-size: 2vw;
+    min-height: 80vh;
+    margin:10vh auto;
+    display:flex;
+    flex-direction: column;
+    background-color: white ;
+    border: 1px solid #2B86C5;
+ }
+ .header{
+     
+    background-color: #FF3CAC;
+    background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+    
+    margin:0 auto 4vh auto;
+    padding-top: 1vh;
+    padding-bottom: 3vh;
+text-align: center;
+    width: 100%;
+    align-items: center;
+
+
+ }
+h1{
+    color: white;
+    margin:1vh auto 0 auto;
+}
+
+.add-field {
+    align-items: center;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin:0 auto;
+
+}
+.added-lists{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    text-align: left;
+    
+}
+input{
+    width: 90%;
+    height: 5vh;
+ margin: 1vh auto 2vh auto;
+ font-style: italic;
+}
+.add{
+    background-color: #FF3CAC;
+    width: 150px;
+    height: 25px; 
+    border: none; 
+    border-radius: 10px;
+    color:white;
+    font-size: 1vw;
+}
+
+ul{
+    margin: 4vh auto 2vh auto;
+    align-items: left;
+    text-align: left;
+}
+
+li{
+    align-items: left;
+    text-align: left;
+    color: #2B86C5;
+    font-size: 1.5vw;
+
+}
+
+.delete{
+
+    background-image: url("close.png");
+    background-size:10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color:#2B86C5 ;
+    width: 20px;
+    height: 20px; 
+    border: none; 
+    border-radius: 10px;
+    color:white;
+    font-size: 15px;
+}
+
+.delete:hover{
+    background-color:#784BA0 ;
+}
+
+.delete{
+
+    background-image: url("close.png");
+    background-size:10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color:#2B86C5 ;
+    width: 20px;
+    height: 20px; 
+    border: none; 
+    border-radius: 10px;
+    color:white;
+    font-size: 15px;
+}
+
+.delete:hover{
+    background-color:#784BA0 ;
+}
